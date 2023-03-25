@@ -35,7 +35,7 @@ export function Home() {
   return (
     <>
       <div className="relative flex h-screen content-center items-center justify-center pt-16 pb-32">
-        <div className="absolute -top-32 h-full w-full bg-[url('./img/teamwork.jpeg')] bg-cover" />
+        <div className="absolute -top-32 h-full w-full bg-[url('./img/teamwork.jpg')] bg-cover" />
         <div className="absolute top-0 h-full w-full bg-black/50 bg-cover bg-center" />
         <div className="max-w-8xl container relative mx-auto">
           <div className="flex flex-wrap items-center">
