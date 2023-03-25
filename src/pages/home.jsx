@@ -35,7 +35,7 @@ export function Home() {
   return (
     <>
       <div className="relative flex h-screen content-center items-center justify-center pt-16 pb-32">
-        <div className="absolute -top-32 h-full w-full bg-[url('./img/teamwork.jpg')] bg-cover" />
+        <div className="absolute -top-32 h-full w-full bg-[url('https://lh3.googleusercontent.com/hiUxtLQgiLccgc-_xRcWjXBU5_GSZW9WOOKnk0DFskt17Od7NkRN289bCz1aq3K0WPujXHACUQnsK2iTqm3v6Tlyx0Dn56q-FNS6XkIQu2rD_1cpBNsJ6B05vaItJ8gfDE9quDgc35qNhWSH5oxXsp5fwqPOcD5EOziAnqqaalabDErOy3C0FmKjFUD7YTYYarvGcnF5h3gP_5wS6Cmvt7tQqpHQUBY3wWolIHHkBwqtErw0IS75GQiOevW17M7XJ4a28ag-qocf2uYabtafR6IbYumolI_capM6I0I3_cZ-LbHUY2RIIwQKmqChppJG8RXhKAfAFVMv6SjndeGu9mFlRSMhKESoTaRPy2JIxMjXeG7Hd2b1hJY8KyaYvvzUz3MeJtgKBDoNY8kXLn_dYcTAEZgt1jRGtRbca8kIaj6_WxWOIC-okFZmvSCiDz01gGyFj_1VvYdI1D9WSw8xr3A9w6SXB7ddsm9tC_7BwLtXOpkDsJhRRQUjPUfPrKT_Ytne3udC4V9EhTu7GHQvhZDIRuh1j_UEsue8syv5WbmKPA-ca8-kUDipK7HDCGKOdJj8f05-jZ7BX2IazgSLDy5zHfFMcJxSYMrqIwvd3-T1YiPvDY8Cbz5368EIymTxb9rsnr-uac_QlJ4UtMmQoo5UBKFMfHRsuKvbxYuqjWbKqx7tPv_VTAwy-a4gUEthlbfain0rvZiNKiL_GAjsnrHdgLd3Pq_TrnNTvrqROgIgRadfvtMGB0VIhQF0SzQ3YhaCiknK1gwTO-l2C1rFAWC76CDXnnYg03cEA8BKNX153TA-yopfO72B5b4U77z9L27wo4CaIxJosL35AHCaSuQMO_FRQdt7shXMphe0oGoKQ7V0nOE1c0u_-kffppp7aor2V8AGu1CvBpyjdbrAGmdQtGWGIwBLrMoq-lR603qRb8fHsdIMqP3ejd9Z2ONYGe9f0lWuwCiLIiOvhneOPCsUnyWKY_z_ZN-33B8W1Rl4RXJL6zpCA-gsvEQk9H5cxHCUnGhNEFFnLcMutBvhooV-Nnd7=w952-h635-s-no?authuser=0')] bg-cover" />
         <div className="absolute top-0 h-full w-full bg-black/50 bg-cover bg-center" />
         <div className="max-w-8xl container relative mx-auto">
           <div className="flex flex-wrap items-center">
@@ -192,7 +192,7 @@ export function Home() {
             Complete this form and we will get back to you within 24 hours.
           </PageTitle>
           <form className="mx-auto mt-12 max-w-3xl text-center">
-            <div className="mb-8 flex gap-8">
+            <div className="mb-8 grid grid-cols-1 md:grid-cols-2 gap-8">
               <Input variant="standard" size="lg" label="Full Name" />
               <Input variant="standard" size="lg" label="Email Address" />
             </div>

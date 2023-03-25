@@ -4,7 +4,7 @@ import { Card, Avatar, Typography } from "@material-tailwind/react";
 export function TeamCard({ link, name, position }) {
   return (
     <Card color="transparent" shadow={false} className="text-center">
-      <iframe width="560" height="315" src={link} title="YouTube video player" 
+      <iframe width="460" height="255" src={link} title="YouTube video player" 
       className="rounded-xl w-full md:w-96 h-72"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
       >
